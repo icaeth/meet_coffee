@@ -1,0 +1,78 @@
+header {
+    background-color: var(--clr-primary-500);
+
+    nav {
+        margin-left: 4rem;
+        height: 99px;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+    }
+
+    li {
+        padding: 2rem;
+    }
+
+    a {
+        font-family: 'Open Sans';
+        font-weight: 300;
+        color: var(--clr-primary-300);
+        text-decoration: none;
+        letter-spacing: 0.25px;
+
+
+    }
+}
+
+.logo {
+    fill: var(--clr-primary-300);
+    width: 44px;
+
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 422px;
+    background-image: url(images/bg-hero.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+    .h1-title {
+        text-align: right;
+        font-size: 3.75rem;
+        margin-top: 52px;
+        margin-right: 12rem;
+        margin-left: 30rem;
+    }
+
+    .h2-subtitle {
+        text-align: right;
+        font-size: 2.5rem;
+        margin-right: 12rem;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .hero {
+
+        height: 35vh;
+
+        .h1-title {
+            font-size: 3rem;
+            margin-right: 6rem;
+        }
+
+        .h2-subtitle {
+            text-align: right;
+            font-size: 2.5rem;
+            margin-right: 6rem;
+        }
+    }
+}

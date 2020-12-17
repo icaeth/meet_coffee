@@ -1,0 +1,42 @@
+:root {
+    --clr-primary-300: white;
+    --clr-primary-400: #707070;
+    --clr-primary-500: #0f0600;
+    --clr-neutral-400: #b36b01;
+    --clr-neutral-600: #a4452c;
+
+    --ff-primary: 'Open Sans', sans-serif;
+
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-size: 1.563rem;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.h1-title {
+    color: var(--clr-primary-300);
+}
+
+.h2-subtitle {
+    color: var(--clr-primary-300);
+}

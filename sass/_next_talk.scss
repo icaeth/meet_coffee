@@ -1,0 +1,39 @@
+.next-talk {
+    background-color: var(--clr-neutral-600);
+    /* height: 500px; */
+
+    p {
+        color: var(--clr-primary-300);
+        font-weight: 200;
+    }
+
+    .h3-subtitle {
+        color: var(--clr-primary-300);
+        margin-top: 1rem;
+        font-size: 33px;
+        font-weight: 200;
+    }
+}
+
+.container-flex {
+    width: 1200px;
+    display: flex;
+    padding: 7rem;
+    margin: 0 auto;
+}
+
+.subtext {
+    color: var(--clr-primary-300);
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: -0.5rem;
+}
+
+.contain-text {
+    padding-left: 2rem;
+    width: 700px;
+}
+
+.endtext {
+    margin-top: 1rem;
+}
