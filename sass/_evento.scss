@@ -2,6 +2,7 @@
     margin: 0 auto;
     width: 1085px;
     padding-top: 10rem;
+    padding-bottom: 10rem;
 
     h2 {
         padding: 2rem;
@@ -12,5 +13,18 @@
     img {
         width: 100%;
         height: 35rem;
+    }
+
+    p {
+        margin-top: 2rem;
+    }
+
+    br {
+        margin-bottom: 2rem;
+    }
+
+    h3 {
+        padding-top: 2rem;
+        font-size: 40px;
     }
 }

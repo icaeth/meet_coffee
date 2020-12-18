@@ -311,6 +311,7 @@ header a {
   margin: 0 auto;
   width: 1085px;
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .evento h2 {
@@ -324,5 +325,18 @@ header a {
 .evento img {
   width: 100%;
   height: 35rem;
+}
+
+.evento p {
+  margin-top: 2rem;
+}
+
+.evento br {
+  margin-bottom: 2rem;
+}
+
+.evento h3 {
+  padding-top: 2rem;
+  font-size: 40px;
 }
 /*# sourceMappingURL=styles.css.map */
